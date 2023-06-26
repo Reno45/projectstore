@@ -23,14 +23,6 @@
             <router-link class="nav-link" to="/barang">Barang</router-link>
           </li>
         </ul>
-
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <router-link class="nav-link" to="/keranjang"
-              >Keranjang</router-link
-            >
-          </li>
-        </ul>
       </div>
     </div>
   </nav>
