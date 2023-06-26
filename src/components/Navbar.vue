@@ -20,12 +20,7 @@
             <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/hoodie">Hoodie</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/celana cargo"
-              >Celana Cargo</router-link
-            >
+            <router-link class="nav-link" to="/barang">Barang</router-link>
           </li>
         </ul>
 

@@ -2,6 +2,8 @@
   <div class="card shadow card-product">
     <img
       :src="'assets/images/' + product.gambar"
+      width="400px"
+      height="400px"
       class="card-img-top"
       alt="..."
     />
