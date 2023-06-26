@@ -2,7 +2,6 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import Hoodie from "../views/Hoodie.vue";
-import Kemeja from "../views/Kemeja.vue";
 import CelanaCargo from "../views/CelanaCargo.vue";
 
 Vue.use(VueRouter);
@@ -17,11 +16,6 @@ const routes = [
     path: "/hoodie",
     name: "Hoodie",
     component: Hoodie,
-  },
-  {
-    path: "/kemeja",
-    name: "Kemeja",
-    component: Kemeja,
   },
   {
     path: "/celana cargo",
