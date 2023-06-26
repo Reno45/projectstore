@@ -1,8 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import Hoodie from "../views/Hoodie.vue";
-import CelanaCargo from "../views/CelanaCargo.vue";
+import Barang from "../views/Barang.vue";
 
 Vue.use(VueRouter);
 
@@ -13,15 +12,11 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/hoodie",
-    name: "Hoodie",
-    component: Hoodie,
+    path: "/barang",
+    name: "barang",
+    component: Barang,
   },
-  {
-    path: "/celana cargo",
-    name: "Celana Cargo",
-    component: CelanaCargo,
-  },
+
   {
     path: "/about",
     name: "about",
